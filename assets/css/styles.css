@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+:root {
+    --font-family: "Roboto", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --primary-color: #4756df;
+    --secondary-color: #db5d62;
+    --bg-color: #fffbfb;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+
+li a {
+    display: block;
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color)
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+nav {
+    position: fixed!important;
+    z-index: 1;
+    height: 100%;
+    display: block;
+    width: 200px;
+    background-color: var(--bg-color);
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+nav h3 {
+    font-size: 32px;
+    color:rgba(0, 0, 0, 0.458);
+    padding-top: 64px!important;
+    padding-bottom: 2px!important;
+    text-align:center!important;
+}
+
+nav p {
+    text-align:center!important;   
+}
+
+nav ul {
+    display:grid;
+    row-gap: 1.5rem;
+    
+}
+
+nav ul li {
+    font-size: 26px;
+    font-weight: var(--bold-font);
+    padding-left: 55px;
+}
+
+nav a {
+    color: rgba(0, 0, 0, 0.458);
+    transition: 1s;
+}
+
+.main {
+    margin-left: 250; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidebar */
+    margin-top: 25px;
+    padding: 0px 10px;   
+}
+
+.main #about {
+    text-align: center;
+}
