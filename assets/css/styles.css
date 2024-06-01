@@ -99,3 +99,66 @@ nav a {
 .main #about {
     text-align: center;
 }
+
+.main #aboutText {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.school-logo {
+    opacity: 1;
+    display: block;
+    width: 400px;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.hover {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-85%, -50%);
+    -ms-transform: translate(-85%, -50%);
+}
+
+.hoverText {
+    background-color: #0035f4;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#UBLogo {
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+    padding-left: 50px;
+}
+
+#UBLogo:hover .school-logo {
+    opacity: 0.3;
+}
+
+#UBLogo:hover .hover {
+    opacity:1;
+}
+
+#UMassLogo {
+    position: relative;
+    width: 50%;
+    float: right;
+    padding-left: 50px;
+}
+
+#UMassLogo:hover .school-logo {
+    opacity: 0.3;
+}
+
+#UMassLogo:hover .hover {
+    opacity:1;
+}
