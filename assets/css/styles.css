@@ -44,6 +44,7 @@ a:hover {
 
 body {
     font-family: var(--font-family);
+    background-color: whitesmoke;
 }
 
 nav {
@@ -52,8 +53,8 @@ nav {
     height: 100%;
     display: block;
     width: 200px;
-    background-color: var(--bg-color);
-    overflow: auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,172,104,1) 39%, rgba(154,91,27,1) 100%);    overflow: auto;
     overflow-x: hidden;
 }
 
@@ -91,6 +92,12 @@ nav a {
     margin-left: 250px; /* Same as the width of the sidebar */
     margin-top: 25px;
     padding: 0px 10px;   
+    background-color:#db5d62;
+}
+
+.main #name {
+    font-size: 40px;
+    color: #3bff6fb1;
 }
 
 .main #about {
@@ -100,7 +107,9 @@ nav a {
 .main #aboutText {
     margin-left: 25px;
     margin-right: 25px;
-    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(250, 233, 233);
 }
 
 .school-logo {
@@ -110,6 +119,7 @@ nav a {
     height: auto;
     transition: 0.5s ease;
     backface-visibility: hidden;
+    
 }
 
 .hover {
@@ -197,6 +207,17 @@ nav a {
     margin-bottom: -50px;
 }
 
+.project-link-image {
+    height: auto;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.projects-skills {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
 .skills {
     margin-left: 250px;
     text-align: left;
@@ -249,9 +270,8 @@ nav a {
 }
 
 .download-button {
-    background-color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
-    color: white;
+    color: black;
     padding: 14px 12px;
     text-align: center;
     border-radius: 8px;
@@ -263,7 +283,9 @@ nav a {
 }
 
 .download-button:hover {
-    background-color: var(--bg-color);
-    color: var(--secondary-color)
+    transition: 0.5s ease-in-out;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(245,245,245, 1) 0%, rgba(255,104,104,1) 39%, rgba(154,27,27,1) 100%);
+    color: var(--secondary-color);
 
 }

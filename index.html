@@ -37,15 +37,14 @@
     <div class="main">
         <!-- About Section -->
         <div id="about">
-            <h2><b>About Me</b></h2>
+            <h2 id="name"><b>About Me</b></h2>
             <div id="aboutText">
-                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet dictum sit amet justo. Duis at consectetur lorem donec massa sapien faucibus et molestie. Nec dui nunc mattis enim ut tellus. Ac turpis egestas maecenas pharetra convallis posuere morbi leo.</p>
-
-                <p>Cursus sit amet dictum sit amet justo donec. At elementum eu facilisis sed odio morbi quis commodo odio. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                <p>Pretium fusce id velit ut tortor pretium viverra. At erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Felis eget nunc lobortis mattis. Ultricies leo integer malesuada nunc vel risus. Sed enim ut sem viverra aliquet eget sit. Ridiculus mus mauris vitae ultricies.</p>
+                <p>Hi, I'm Kevin! I recently graduated with a Bachelor's Degree in Computing and Applied Mathematics from the University at Buffalo. I am from Buffalo, New York, but I am interested in going anywhere for work, preferably within the States, though. I am passionate about the many ways data can be used in our own lives and businesses.</p>
+                <br>
+                <p>Having recently graduated, I have much to learn about how we interact with data in the real-world, but I am eager to learn and expand my horizons. Currently, I am trying to learn more about data science techniques as well as other software engineering principles and skills.</p>
             </div>
             <div id="UBLogo">
-                <img src="assets/images/ub_logo.png" alt="ub-logo" class="school-logo">
+                <img src="assets/images/ub_logo.png" alt="ub-logo" loading="lazy" class="school-logo">
                 <div class="hover">
                     <div class="hoverText">
                         B.A. Computing and Applied Mathematics
@@ -55,7 +54,7 @@
                 </div>
             </div>
             <div id="UMassLogo">
-                <img src="assets/images/umass_logo.png" alt="umass-logo" class="school-logo">
+                <img src="assets/images/umass_logo.png" alt="umass-logo" loading="lazy" class="school-logo">
                 <div class="hover">
                     <div class="hoverText">
                         Master's in Computer Science
@@ -76,21 +75,33 @@
             <div class="project-container project-card">
                 <img src="assets/images/us_census_bureau.png" alt="us-census-bureau" loading="lazy" class="project-pic">
                 <h3 class="project-title">Analysis of Educational Disparity in The U.S.</h3>
+                <br>
                 <p class="project-details">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
+                    I used data from the United States Census to explore and analyze educational disparity in the United States between states. My analysis was completed using state-level educational attainment and levels of unemployment.
                 </p>
-                <a href="https://github.com/kn58buff/census-data-analysis" class="project-link">GitHub Repo</a>
+                <a href="https://github.com/kn58buff/census-data-analysis" class="project-link">
+                    <img src="assets/images/github_with_text.png" alt="github-logo-with-text" loading="lazy" class="project-link-image">
+                </a>
+                <div class="projects-skills">
+                    Python, Pandas, Data Visualization, Data Analysis
+                </div>
             </div>
             <div class="project-container project-card">
                 <img src="assets/images/controller.png" alt="game-controller" loading="lazy" class="project-pic">
                 <h3 class="project-title">Video Game Sales Analysis</h3>
                 <p class="project-details">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
+                    <br>
+                    I used a data set from Kaggle containing the sales statistics of video games, including a game's release year, genre, publisher, and regional sales (North America, Europe, Japan, Other, and Global).
+                    <br>
+                    <br>
+                    I processed and cleaned to explore three questions: does genre really impact sales, are games of the top publisher (Nintendo) popular regardless of genre, and is it possible to predict the total yearly sales for all games.
                 </p>
-                <a href="https://github.com/kn58buff/video-games-sales-analysis" class="project-link">GitHub Repo</a>
+                <a href="https://github.com/kn58buff/video-games-sales-analysis" class="project-link">
+                    <img src="assets/images/github_with_text.png" alt="github-logo-with-text" loading="lazy" class="project-link-image">
+                </a>
+                <div class="projects-skills">
+                    Python, Pandas, Data Visualization, Data Analysis, Hypothesis Testing, Regression Analysis
+                </div>
             </div>
         </div>
         <div class="projects-container">
@@ -98,11 +109,15 @@
                 <img src="assets/images/bayes_theorem.png" alt="bayes-theorem" loading="lazy" class="project-pic">
                 <h3 class="project-title">Naive Bayes' Classifier Implementation</h3>
                 <p class="project-details">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
+                    <br>
+                    I used Python to implement a basic Naive Bayes' Classifier. I tested its performance and accuracy using two different sets of text. Each text required some degree of processing and cleaning. The first text contained movie reviews and their associated sentiment (positive or negative). The second text contained magazine articles and the type of magazine they came from, all in a singular text file.
                 </p>
-                <a href="https://github.com/kn58buff/Basic-Naive-Bayes-Classifier" class="project-link">GitHub Repo</a>
+                <a href="https://github.com/kn58buff/Basic-Naive-Bayes-Classifier" class="project-link">
+                    <img src="assets/images/github_with_text.png" alt="github-logo-with-text" loading="lazy" class="project-link-image">
+                </a>
+                <div class="projects-skills">
+                    Python, Statistics, Numpy, Pandas, Machine Learning, Text Processing
+                </div>
             </div>
             <div class="project-container project-card">
                 <img src="assets/images/twitter_logo.png" alt="twitter-logo" loading="lazy" class="project-pic">
@@ -111,7 +126,12 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
                 </p>
-                <a href="https://github.com/kn58buff/Twitter-Scraping" class="project-link">GitHub Repo</a>
+                <a href="https://github.com/kn58buff/Twitter-Scraping" class="project-link">
+                    <img src="assets/images/github_with_text.png" alt="github-logo-with-text" loading="lazy" class="project-link-image">
+                </a>
+                <div class="projects-skills">
+                    Python, SQL, Pandas, Data Visualization, Data Analysis, Scikit-Learn, Machine Learning, Regression Analysis
+                </div>
             </div>
         </div>
         <div class="projects-container">
@@ -124,7 +144,12 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
                 </p>
-                <a href="https://github.com/ritabanm-99/EAS-503-Final_Project/" class="project-link">GitHub Repo</a>
+                <a href="https://github.com/ritabanm-99/EAS-503-Final_Project/" class="project-link">
+                    <img src="assets/images/github_with_text.png" alt="github-logo-with-text" loading="lazy" class="project-link-image">
+                </a>
+                <div class="projects-skills">
+                    Python, SQL, Pandas, Data Visualization, Data Analysis, Scikit-Learn, Machine Learning, Regression Analysis
+                </div>
             </div>
         </div>
     </div>
